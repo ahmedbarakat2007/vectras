@@ -1,0 +1,8 @@
+{
+"versionCode": 1,
+// Updated version code
+"cancellable": false,
+// If you want to force users to update the app
+"url": "http://tiny.cc/BuySellBD"
+// If you want users to update the app from an External URL or from the Google Play URL
+}

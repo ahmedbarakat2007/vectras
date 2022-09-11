@@ -3,8 +3,5 @@
 "cancellable": false,
 "size": "13.64MB",
 "url": "http://test.com" ,
-"message": " ======== LICENSE ========
-<br><br>
- Source Code, Wiki, and Other information can be found at:<br>
- <a href="https://github.com/limboemu/limbo">https://github.com/limboemu/limbo</a><br>"
+"message": "https://lol.com"
 }

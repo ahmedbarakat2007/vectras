@@ -1,6 +1,6 @@
 {
-"versionCode": 1,
-"cancellable": false,
+"versionCode": 2,
+"cancellable": true,
 "size": "13.64MB",
 "url": "http://test.com" ,
 "message": "https://lol.com"

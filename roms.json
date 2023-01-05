@@ -1,6 +1,14 @@
-{
-"rom_icon":"app_logo.png",
-"rom_name":"windows7",
-"rom_arch":"x86",
-"rom_size":"1.47gb"
-}
+[{"rom_icon":"1.jpg","rom_name":"Indian Mackerel","rom_arch":"Marine Fish","rom_size":"Medium","price":"100"},
+{"rom_icon":"2.jpg","rom_name":"Manthal Repti","rom_arch":"Marine Fish","rom_size":"Small","price":"200"},
+{"rom_icon":"3.jpg","rom_name":"Baby Sole Fish","rom_arch":"Marine Fish","rom_size":"Small","price":"600"},
+{"rom_icon":"4.jpg","rom_name":"Silver Pomfret","rom_arch":"Marine Fish","rom_size":"Large","price":"300"},
+{"rom_icon":"5.jpg","rom_name":"Squid","rom_arch":"Shell Fish","rom_size":"Small","price":"800"},
+{"rom_icon":"6.jpg","rom_name":"Clam Meat","rom_arch":"Shell Fish","rom_size":"Small","price":"350"},
+{"rom_icon":"7.jpg","rom_name":"Indian Prawns","rom_arch":"Shell Fish","rom_size":"Medium","price":"270"},
+{"rom_icon":"8.jpg","rom_name":"Mud Crab","rom_arch":"Shell Fish","rom_size":"Medium","price":"490"},
+{"rom_icon":"9.jpg","rom_name":"Grey Mullet","rom_arch":"Backwater Fish","rom_size":"Small","price":"670"},
+{"rom_icon":"10.jpg","rom_name":"Baasa","rom_arch":"Backwater Fish","rom_size":"Large","price":"230"},
+{"rom_icon":"11.jpg","rom_name":"Pearl Spot","rom_arch":"Backwater Fish","rom_size":"Small","price":"340"},
+{"rom_icon":"12.jpg","rom_name":"Anchovy","rom_arch":"Marine Fish","rom_size":"Small","price":"130"},
+{"rom_icon":"13.jpg","rom_name":"Sole Fish","rom_arch":"Marine Fish","rom_size":"Medium","price":"250"},
+{"rom_icon":"14.jpg","rom_name":"Silver Croaker","rom_arch":"Marine Fish","rom_size":"Small","price":"220"}]

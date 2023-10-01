@@ -1,7 +1,13 @@
 [
 {
-"post_thumb":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/app_icon.png",
+"post_thumb":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/res/images/app_logo.png",
 "post_title":"Post Title",
+"post_content":"post content",
+"post_date":"lol"
+},
+{
+"post_thumb":"https://filecr.com/_next/image/?url=https%3A%2F%2Fmedia.imgcdn.org%2Frepo%2F2023%2F03%2Fwindows-10-lite-version%2FWindows-10-Lite-spectre.jpg&w=1920&q=75",
+"post_title":"Ghost Spectre",
 "post_content":"post content",
 "post_date":"lol"
 }

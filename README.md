@@ -4,6 +4,8 @@
 
 It's a Windows Virtual Machine App for Android Which is Based on QEMU
 
+Has The Capbility to Run Xp,7,10 (Linux Soon)
+
 # System Requirement
 
 * Android 7.0+

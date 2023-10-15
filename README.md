@@ -1,10 +1,11 @@
 # Vectras
 
-![favicon-2](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/1d836db6-c50a-42fa-a93f-46f667fb9a5e)
+![Uploading logo.png…]()
+
 
 It's a Windows Virtual Machine App for Android Which is Based on QEMU
 
-#System Requirement
+# System Requirement
 
 * Android 7.0+
 
@@ -15,6 +16,6 @@ It's a Windows Virtual Machine App for Android Which is Based on QEMU
 * A Phone
 * ![images](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/8e453927-4235-4489-a100-9c909153bb2f)
 
-  #Demo Version
+# Demo Version
 
-  Just Wait For It ;)
+* Just Wait For It ;)

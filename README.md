@@ -1,7 +1,6 @@
 # Vectras
 
-![Uploading logo.png…]()
-
+![logo](https://github.com/ahmedbarakat2007/Vectras-windows-emulator/assets/118398763/096d4a06-8d3c-489f-9fb5-d273f361200c)
 
 It's a Windows Virtual Machine App for Android Which is Based on QEMU
 

@@ -1,6 +1,90 @@
 [{
-"rom_icon":"x86.png",
-"rom_name":"windows7",
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
+"rom_name":"React OS",
 "rom_arch":"x86",
-"rom_size":"1.47gb"
+"rom_avail":true,
+"rom_size":"247.3MB",
+"rom_url":"https://drive.google.com/file/d/1FoFAZ7hvWHzgiwSxukzGKMtIC2wxywxk/view?usp=sharing",
+"rom_path":"rosx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/reactos-icon.jpg",
+"rom_name":"React OS",
+"rom_arch":"x64",
+"rom_avail":false,
+"rom_size":"UNKNOWN",
+"rom_url":"",
+"rom_path":"rosx64.IMG",
+"rom_extra":"null"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Windows XP",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"696.8MB",
+"rom_url":"https://drive.google.com/file/d/11uk5YW6D4_lY6VNXXn9Dvdzps_3vpFzD/view?usp=drive_link",
+"rom_path":"txpx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/xp-icon.jpg",
+"rom_name":"Windows XP",
+"rom_arch":"x64",
+"rom_avail":false,
+"rom_size":"UNKNOWN",
+"rom_url":"",
+"rom_path":"txpx64.IMG",
+"rom_extra":"null"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
+"rom_name":"Tiny 7",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"981.1MB",
+"rom_url":"https://drive.google.com/file/d/1NHqAtdL5Nkcd5gMLgDwXJnDm-yhPV2Oc/view?usp=drive_link",
+"rom_path":"t7x86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/t7-icon.jpg",
+"rom_name":"Tiny 7",
+"rom_arch":"x64",
+"rom_avail":false,
+"rom_size":"UNKNOWN",
+"rom_url":"",
+"rom_path":"t7x64.IMG",
+"rom_extra":"null"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
+"rom_name":"Kali Linux",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"3.87GB",
+"rom_url":"https://drive.google.com/file/d/1w58du9rRdbdL_nxL9wIv5bgZ-k7hPi5_/view?usp=drive_link",
+"rom_path":"klx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/kali-icon.jpg",
+"rom_name":"Kali Linux",
+"rom_arch":"x64",
+"rom_avail":true,
+"rom_size":"4.43GB",
+"rom_url":"https://drive.google.com/file/d/1sE0yezOQZv8dyPpV7dMKil1ndy6_i7hD/view?usp=drive_link",
+"rom_path":"klx64.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
+},
+{
+"rom_icon":"https://raw.githubusercontent.com/epicstudios856/Vectras-windows-emulator/main/roms/icons/msdos-icon.jpg",
+"rom_name":"MSDOS",
+"rom_arch":"x86",
+"rom_avail":true,
+"rom_size":"3.49MB",
+"rom_url":"https://drive.google.com/file/d/1EoBfWuKaY5VFFav7pC83rIDU_0s94TXV/view?usp=sharing",
+"rom_path":"msdosx86.IMG",
+"rom_extra":"-vga std -soundhw ac97 -net nic,model=ne2k_pci -net user -cpu core2duo"
 }]

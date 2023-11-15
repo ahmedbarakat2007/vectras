@@ -36,13 +36,12 @@ br{
     color:white;
     background-color:#0160c9;
     border:solid 0px;
-    max-width:150px;
-    width:100%;
     height:40px;
     font-family: ph2;
     border-radius:10px;
     cursor: pointer;
     font-family:ph2;
+    width:150px;
 }
 #btn911:hover{
     background-color:#1CA3DE;
@@ -106,11 +105,27 @@ br{
     bottom: 10px;
     left: 10px;
   }
+  .btn911{
+    display: none;
+}
+
 }
 @media only screen and (min-device-width: 481px) {
   .text{
     font-size: small;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    color:white;
   }
+  .btn911{
+    position: absolute;
+    bottom:40px;
+    left: 90px;
+    color:white;
+    width:200px;
+    
+}
 }
 @media only screen and (max-device-width: 480px) {
   p{

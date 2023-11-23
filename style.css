@@ -34,21 +34,21 @@ br{
 }
 #btn911{
     color:white;
-    background-color:#0160c9;
+    background-color:#202125;
     border:solid 0px;
     height:40px;
     font-family: ph2;
-    border-radius:10px;
+    border-radius:4px;
     cursor: pointer;
     font-family:ph2;
-    width:150px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 #btn911:hover{
-    background-color:#1CA3DE;
+    background-color:#17181b;
     transition:0.7s;
 }
 #btn911:focus{
-    background-color:#0041c7;
+    background-color:#202125;
     transition:0.7s;
 }
 * {box-sizing:border-box}
@@ -96,35 +96,41 @@ br{
 .text {
     position: absolute;
     bottom: 20px;
-    left: 30px;
+    left: 00px;
     color:white;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 410px) {
   .text{
     font-size: xx-small;
     bottom: 10px;
     left: 10px;
   }
   .btn911{
-    display: none;
+    position: absolute;
+    bottom:15px;
+    left: 190px;
+    width:130px;
 }
 
 }
-@media only screen and (min-device-width: 481px) {
+@media only screen and (min-device-width: 411px) {
   .text{
     font-size: small;
     position: absolute;
     bottom: 80px;
-    left: 30px;
+    left: 17px;
     color:white;
   }
   .btn911{
     position: absolute;
     bottom:40px;
-    left: 90px;
+    left: 100px;
     color:white;
-    width:200px;
+    width:300px;
     
+}
+#btn911{
+  width:200px;
 }
 }
 @media only screen and (max-device-width: 480px) {
@@ -199,11 +205,10 @@ br{
     margin-right:20px;
 }
 .card2{
-    background-color:#0160c9;
+    background-color:#202125;
     border:solid 0 0 black;
-    border-radius: 10px;
-    max-width:600px;
-    width:90%;
+    max-width:6000px;
+    width:100%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card {
@@ -213,7 +218,7 @@ br{
   text-align: center;
   color: white;
   overflow: hidden;
-  width:40%;
+  width:70%;
   border-radius:10px;
   
 }
@@ -350,7 +355,7 @@ br{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin:40px;
-  background-color:#0160c9;
+  background-color:#202125;
   width:100%;
   max-width:250px;
   border-radius:10px;
@@ -375,6 +380,9 @@ br{
   overflow: hidden; /* add this to contain floated children */
   opacity:1;
   
+}
+.container33 {
+  text-decoration: none;
 }
 #ahmed{
   max-width:200px;
@@ -424,7 +432,9 @@ br{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
+a{
+  text-decoration: none;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev5:hover,
 .next5:hover {

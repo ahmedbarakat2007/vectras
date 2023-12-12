@@ -60,7 +60,6 @@ padding:0;
 .btn911{
     position: absolute;
     bottom:0px;
-    left: 0px;
     color:white;
     
 }
@@ -142,7 +141,8 @@ padding:0;
     bottom:15px;
     left:50%;
     width:130px;
-}
+
+transform:translateX(-50%);}
 
 }
 @media only screen and (min-device-width: 411px) {

@@ -134,13 +134,16 @@ padding:0;
 @media only screen and (max-device-width: 410px) {
   .text{
     font-size: xx-small;
-    bottom: 10px;
-    left: 10px;
+    bottom: 50%;
+    left: 50%;
+transform:translate(-50%,-50%);
   }
   .btn911{
     position: absolute;
     bottom:15px;
-    left: 190px;
+    left: 50%;
+    
+transform:translateX(-50%);
     width:130px;
 }
 

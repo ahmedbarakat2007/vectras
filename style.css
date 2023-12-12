@@ -57,7 +57,9 @@ padding:0;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	z-index:980;
-    
+
+margin-top:0;
+padding:0;    
 }
 .btn911{
     position: absolute;

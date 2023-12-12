@@ -39,14 +39,13 @@ br{
 	-webkit-filter: blur(6px);
 	-moz-filter: blur(6px);
 	-o-filter: blur(6px);
-	-ms-filter: blur(6px);            filter: blur(6px);
+	-ms-filter: blur(6px);            backdrop-filter: blur(6px);
 	opacity:0.7;
 	background-color:#17181b;
 overflow: hidden;
 margin-top:0;
 padding:0;
 transition: transform 0.3s ease-in-out 0s;
-transform:scale(110%);
 }
 #logo{
     width:100px;

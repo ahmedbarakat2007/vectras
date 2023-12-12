@@ -130,7 +130,7 @@ padding:0;
 }
 @media only screen and (max-device-width: 410px) {
   .text{
-    font-size: tiny;
+    font-size:small;
     left: 50%;
     bottom:50px;
 

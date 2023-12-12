@@ -36,8 +36,8 @@ br{
 	z-index:979;
 	width:100%;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-	-webkit-backdrop-filter: blur(6px);         backdrop-filter: blur(6px);
-	opacity:0.8;
+backdrop-filter: blur(6px);
+	opacity:0.9;
 	background-color:#17181b;
 overflow: hidden;
 margin-top:0;

@@ -142,11 +142,11 @@ font-weight:100;
   .btn911{
     position: absolute;
     bottom:20px;
-    left:60%;
+    left:55%;
 margin-left:20px;
     width:130px;
 
-transform:translateX(-40%);}
+transform:translateX(-45%);}
 
 }
 @media only screen and (min-device-width: 411px) {

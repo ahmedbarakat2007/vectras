@@ -21,8 +21,38 @@ h1{
 br{
   user-select:none;
 }
+.shadow{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.header{
+	position:fixed;
+	left:50%;
+	height:87px;
+	transform:translateX(-50%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	z-index:979;
+	width:100%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+	opacity:0.7;
+	background-color:black;
+}
 #logo{
     width:100px;
+    position:fixed;
+	left:50%;
+	top:0;
+	transform:translateX(-50%);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	z-index:980;
     
 }
 .btn911{
@@ -502,6 +532,10 @@ a{
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	z-index:999;
 }
 
 .sidenav a {
@@ -535,16 +569,18 @@ a{
 margin-left: 200px; /* Same as the width of the sidenav */
 }
 #menu2{
- float: right;
  margin-right: 50px;
- margin-top: 30px;;
- margin-left:-50px;
+ margin-top: 30px;
  margin-bottom:-30px;
  width:0px;
  height:0px;
  color:white;
  border:solid #141414;
  background-color: #141414;
+ position:fixed;
+ right:0;
+ top:0;
+ z-index:980;
 }
 .reveal{
 position: relative;
@@ -663,9 +699,28 @@ font-family: MyFirstFont;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+.warn {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
 /* Modal Content/Box */
 .modal-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.warn-content {
   background-color: #141414;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -726,6 +781,19 @@ font-family: MyFirstFont;
 
 .close:hover,
 .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.closewarn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closewarn:hover,
+.closewarn:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

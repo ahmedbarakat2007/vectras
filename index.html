@@ -12,9 +12,18 @@
     <title>Vectras VM</title>
 </head>
 <body>
-    <div class="header">
-        <center>
-          <div id="mySidenav" class="sidenav">
+	<div id="warn" class="warn">
+
+        <div class="warn-content">
+          <span class="closewarn">&times;</span>
+          <center>
+          <h1>Note</h1><br>
+          <p>The Version That's on The Website Right Now(b1.2) is not Stable and Has alot of Bugs and It Might Not Work For You So We are Now Working on (b1.3) That Will be Released Soon So We Hope You Wait for a While insted of Downloading it Right Now</p>
+		  </center>
+        </div>
+
+      </div>
+	<div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
             <a href="index.html"><i class="fa-solid fa-house"></i></a>
             <a href="download.html"><i class="fa-solid fa-download"></i></i></a>
@@ -27,17 +36,25 @@
             <a href="https://t.me/vectras_os"><i class="fa-brands fa-telegram"></i></a>
             <a href="https://github.com/epicstudios856/Vectras-VM-Android"><i class="fa-brands fa-github"></i></a>
         </div>
-            <img src="Textures/logo.png" id="logo" draggable="false">
+    <div class="shadow">
+    <div class="header">
+	</div>
+	</div>
+	   <center>
+	   <img src="Textures/logo.png" id="logo" draggable="false">
             
           <span onclick="openNav1()">
-              <a href="#" id="menu2">
+              <a style="cursor: pointer;" id="menu2">
                   <i class="fa fa-bars"></i>
               </a>
           </span>
-          
-          <br>
+	   
         </center>
     </div>
+    <br>
+        <br><br>
+        <br>
+          <br>
     <div class="container">
         <div class="slideshow-container">
 
@@ -75,6 +92,7 @@
             <a href="roms.html"><img src="Textures/8.1.jpg" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:80%"></a>
             <span class="textlist"><h1>Windows 7</h1></span>
         </span>
+        <br>
         <span class="card">
             <a href="roms.html"><img src="Textures/vista.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:80%"></a>
             <span class="textlist"><h1>Windows 8.1</h1></span>
@@ -301,6 +319,7 @@
       </div>
 </body>
 <script src="animation.js"></script>
+<script src="windows.js"></script>
 <script>
     let slideIndex = 1;
 showSlides(slideIndex);

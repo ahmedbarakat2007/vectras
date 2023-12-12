@@ -179,4 +179,9 @@ function window4(){
           modal.style.display = "none";
         }
       }
-      }
+  }
+  var span = document.getElementsByClassName("closewarn")[0];
+  span.onclick = function() {
+	warn.style.display = "none";
+  }
+ 

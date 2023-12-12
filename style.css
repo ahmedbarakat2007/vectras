@@ -43,6 +43,7 @@ br{
 	opacity:0.7;
 	background-color:black;
 overflow: hidden;  
+-webkit-transform: translate3d(0, 0,0);
 }
 #logo{
     width:100px;

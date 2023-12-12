@@ -35,15 +35,14 @@ br{
 	z-index:979;
 	width:100%;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-	-webkit-filter: blur(2px);
-	-moz-filter: blur(2px);
-	-o-filter: blur(2px);
-	-ms-filter: blur(2px);
-	filter: blur(2px);
+	-webkit-backdrop-filter: blur(2px);
+	-moz-backdrop-filter: blur(2px);
+	-o-backdrop-filter: blur(2px);
+	-ms-backdrop-filter: blur(2px);
+ backdrop-filter: blur(2px);
 	opacity:0.7;
 	background-color:black;
-overflow: hidden;  
--webkit-transform: translate3d(0, 0,0);
+overflow: hidden;
 }
 #logo{
     width:100px;

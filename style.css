@@ -143,6 +143,7 @@ font-weight:100;
     position: absolute;
     bottom:20px;
     left:50%;
+margin-left:20px;
     width:130px;
 
 transform:translateX(-50%);}

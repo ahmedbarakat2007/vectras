@@ -132,13 +132,12 @@ padding:0;
   .text{
     font-size:small;
     left: 50%;
-    bottom:50px;
-
-	transform:translateX(-50%);
+    bottom:50٪;
+transform:translate(-50%,-50%);    
   }
   .btn911{
     position: absolute;
-    bottom:15px;
+    bottom:20px;
     left:50%;
     width:130px;
 

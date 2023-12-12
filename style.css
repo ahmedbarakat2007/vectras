@@ -42,7 +42,7 @@ br{
 	filter: blur(2px);
 	opacity:0.7;
 	background-color:black;
-transform: scale(1.1); 
+overflow: hidden;  
 }
 #logo{
     width:100px;

@@ -28,7 +28,7 @@ br{
 .header{
 	position:fixed;
 	left:50%;
-	height:97px;
+	height:105px;
 	transform:translateX(-50%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;

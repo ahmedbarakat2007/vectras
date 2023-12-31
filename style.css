@@ -37,7 +37,8 @@ br{
 	z-index:979;
 	width:100%;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+
 	background-color:#17181b22;
 overflow: hidden;
 margin-top:0;
@@ -66,7 +67,7 @@ padding:0;
 }
 #btn911{
     color:white;
-    background-color:#202125;
+    background-color:rgb(0,138,255);
     border:solid 0px;
     height:40px;
     font-family: ph2;
@@ -76,10 +77,32 @@ padding:0;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 #btn911:hover{
-    background-color:#17181b;
+    background-color:#00a4ef;
     transition:0.7s;
 }
 #btn911:focus{
+    background-color:rgb(0,138,255);
+    transition:0.7s;
+}
+#btn9111{
+    color:white;
+    background-color:rgb(0,138,255);
+    border:solid 0px;
+    height:40px;
+    font-family: ph2;
+    border-radius:4px;
+    cursor: pointer;
+    font-family:ph2;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    color:white;
+    width:300px;
+    text-align: center;
+}
+#btn9111:hover{
+    background-color:#17181b;
+    transition:0.7s;
+}
+#btn9111:focus{
     background-color:#202125;
     transition:0.7s;
 }
@@ -241,7 +264,7 @@ transform:translateX(-68%);}
     margin-right:20px;
 }
 .card2{
-    background-color:#202125;
+    background-color:rgb(0,138,255);
     border:solid 0 0 black;
     max-width:6000px;
     width:100%;
@@ -391,7 +414,7 @@ transform:translateX(-68%);}
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin:40px;
-  background-color:#202125;
+  background-color:rgb(0,138,255);
   width:100%;
   max-width:250px;
   border-radius:10px;
@@ -408,6 +431,21 @@ transform:translateX(-68%);}
   transition:0.7s;
   opacity:0.8;
 }
+.card33 {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin:40px;
+  background-color:#202125;
+  width:100%;
+  max-width:250px;
+  border-radius:10px;
+  overflow: hidden; /* add this to contain floated children */
+  display: inline-block;
+  opacity:1;
+  
+}
+
 
 /* Add some padding inside the card container */
 .container22 {
@@ -620,6 +658,7 @@ color:white;
 #ahmed{
 width: 190px;
 border-radius:10px;
+background-color:rgb(0,138,255);
 }
 #follow{
 margin:40px;

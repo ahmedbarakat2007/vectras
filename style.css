@@ -891,7 +891,41 @@ font-family: MyFirstFont;
   border: 1px solid #141414;
   width: 80%; /* Could be more or less, depending on screen size */
 }
-
+.modal18-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal19-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal20-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal21-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal22-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
 /* The Close Button */
 .close {
@@ -1100,6 +1134,66 @@ font-family: MyFirstFont;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal17 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal18 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal19 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal20 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal21 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal22 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -1328,6 +1422,71 @@ font-family: MyFirstFont;
 
 .close17:hover,
 .close17:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close18 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close18:hover,
+.close18:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close19 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close19:hover,
+.close19:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close20 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close20:hover,
+.close20:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close21 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close21:hover,
+.close21:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close22 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close22:hover,
+.close22:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

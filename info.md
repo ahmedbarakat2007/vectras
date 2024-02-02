@@ -5,4 +5,3 @@ x86-64 Based to ARM Based Apps With incredible Performance and Awesome Battery L
 of Performance So Games Can Run Up to 60 FPS and Programs Such as Desktop Version of Microsoft Word Can Run Super Smoothly Also Capible of Running Retro Games Up To 1990s Era Easily On Any
 
 Android Phone and The Best Part About it Thts It Doesn't Require A Beefy Phone That Cost 1500$ To Able To Run Vectras Insted It Only Requires 4gb Ram and an 8 Core CPU and It will Run Like Butter Smooth
-	    <a href="https://www.buymeacoffee.com/vectrasvm" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>

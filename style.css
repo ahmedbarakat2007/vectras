@@ -279,6 +279,7 @@ transform:translateX(-68%);}
   overflow: hidden;
   width:70%;
   border-radius:10px;
+  display:inline;
   
 }
 
@@ -926,6 +927,209 @@ font-family: MyFirstFont;
   border: 1px solid #141414;
   width: 80%; /* Could be more or less, depending on screen size */
 }
+.modal23-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal24-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal25-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal26-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal27-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal28-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal29-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal30-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal31-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal32-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal32-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal32-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal33-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal34-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal35-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal36-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal37-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal38-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal39-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal40-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal41-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal42-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal43-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal44-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal45-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal46-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal47-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal48-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal49-content {
+  background-color: #141414;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #141414;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
 /* The Close Button */
 .close {
@@ -1194,6 +1398,330 @@ font-family: MyFirstFont;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal22 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal23 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal24 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal25 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal26 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal27 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal28 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal29 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal30 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal31 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal32 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal33 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal34 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal35 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal36 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal37 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal38 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal39 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal40 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal41 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal42 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal43 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal44 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal45 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal46 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal47 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal48 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal49 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -1491,6 +2019,335 @@ font-family: MyFirstFont;
   text-decoration: none;
   cursor: pointer;
 }
+.close23 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close23:hover,
+.close23:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close24 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close24:hover,
+.close24:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close25 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close25:hover,
+.close25:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close26 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close26:hover,
+.close26:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close27 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close27:hover,
+.close27:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close28 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close28:hover,
+.close28:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close29 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close29:hover,
+.close29:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close30 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close30:hover,
+.close30:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close31 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close31:hover,
+.close31:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close32 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close32:hover,
+.close32:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close33 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close33:hover,
+.close33:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close34 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close34:hover,
+.close34:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close35 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close35:hover,
+.close35:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close36 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close36:hover,
+.close36:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close37 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close37:hover,
+.close37:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close38 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close38:hover,
+.close38:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close39 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close39:hover,
+.close39:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close40 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close40:hover,
+.close40:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close41 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close41:hover,
+.close41:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close42 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close42:hover,
+.close42:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close43 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close43:hover,
+.close43:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close44 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close44:hover,
+.close44:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close45 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.clos45:hover,
+.close45:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close46 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close46:hover,
+.close46:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close47 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close47:hover,
+.close47:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close48 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close48:hover,
+.close48:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close49 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close49:hover,
+.close49:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 #downlaod1{
   background-color: #1CA3DE;
   color:white;
@@ -1500,5 +2357,15 @@ font-family: MyFirstFont;
   height:50px;
   width: 90px;
   font-family:ph2;
+}
+#searchbox{
+  height: 40px;
+  max-width:740px;
+  width:90%;
+  border-radius: 20px;
+  text-align:center;
+  color:white;
+  background-color: #17181b;
+  border:solid 1px black;
 }
 

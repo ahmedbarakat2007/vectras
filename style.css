@@ -7,7 +7,9 @@
   src:url(cairo_regular.ttf);
 }
 body{
-    background-color:#17181b;
+    background-color:
+    #101418
+    ;
     color:white;
     font-family:h1;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
@@ -19,6 +21,9 @@ p{
 }
 h1{
   display: inline-block;
+}
+h3{
+  font-family:ph2;
 }
 br{
   user-select:none;
@@ -60,14 +65,12 @@ margin-top:0;
 padding:0;    
 }
 .btn911{
-    position: absolute;
-    bottom:0px;
     color:white;
     
 }
 #btn911{
     color:white;
-    background-color:rgb(0,138,255);
+    background-color:#0F1924;
     border:solid 0px;
     height:40px;
     font-family: ph2;
@@ -76,17 +79,29 @@ padding:0;
     font-family:ph2;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+#btn9112{
+  color:white;
+  background-color:#101418;
+  border:solid 0px;
+  height:40px;
+  font-family: ph2;
+  border-radius:4px;
+  cursor: pointer;
+  font-family:ph2;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 100%;
+}
 #btn911:hover{
-    background-color:#00a4ef;
+    background-color:rgba(21, 36, 46, 0.6);
     transition:0.7s;
 }
 #btn911:focus{
-    background-color:rgb(0,138,255);
+    background-color:#101418;
     transition:0.7s;
 }
 #btn9111{
     color:white;
-    background-color:rgb(0,138,255);
+    background-color:#202125;
     border:solid 0px;
     height:40px;
     font-family: ph2;
@@ -149,47 +164,110 @@ padding:0;
 
 /* Caption text */
 .text {
-    position: absolute;
     color:white;
+    
 }
-@media only screen and (max-device-width: 410px) {
+@media only screen and (max-device-width: 431px) {
   .text{
     font-size:xx-small;
-    position:absolute;
-    left: 50%;
-bottom:55px;
-display:inline-block;
-font-weight:100;
-    transform:translateX(-50%);
+    display:inline-block;
+    font-weight:100;
+    float:none;
   }
   .btn911{
-    position: absolute;
-    bottom:20px;
-    left:55%;
-margin-left:20px;
     width:130px;
-
-transform:translateX(-68%);}
-
+    margin-right:0;
+    float:none;}
+#blu{
+  width:250px;
+  float:none;
+  margin-right: 0;
 }
-@media only screen and (min-device-width: 411px) {
+#background{
+  display:inline;
+}
+}
+@media only screen and (min-device-width: 432px) {
   .text{
     font-size: small;
-    position: absolute;
-    bottom: 80px;
-    left: 17px;
     color:white;
+    float:left;
+    margin-left:80px;
   }
   .btn911{
-    position: absolute;
-    bottom:40px;
-    left: 100px;
     color:white;
     width:300px;
-    
+    float:left;
+    margin-left:80px;
+  }
+  #background{
+      display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.jpg); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
+  }  
+#blu{
+  width:270px;
+  float:right;
+  margin-right:50px;
+  margin-top:110px;
 }
 #btn911{
   width:200px;
+  
+}
+}
+@media only screen and (min-device-width: 1000px) {
+  .text{
+    font-size: small;
+    color:white;
+    float:left;
+    margin-left:100px;
+    margin-top:90px;
+  }
+  .btn911{
+    color:white;
+    width:300px;
+    float:left;
+    margin-left:100px;
+    
+}
+#blu{
+  width:500px;
+  float:right;
+  margin-right:100px;
+}
+#btn911{
+  width:200px;
+
+}
+#background{
+  display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.jpg); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
+}
+}
+@media only screen and (min-device-width: 1400px) {
+  .text{
+    font-size: small;
+    color:white;
+    float:left;
+    margin-left:100px;
+    margin-top:90px;
+  }
+  .btn911{
+    color:white;
+    width:300px;
+    float:left;
+    margin-left:100px;
+    
+}
+#blu{
+  width:500px;
+  float:right;
+  margin-right:100px;
+}
+#btn911{
+  display:none;
+
+}
+#background{
+  display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.jpg); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
 }
 }
 @media only screen and (max-device-width: 480px) {
@@ -207,7 +285,7 @@ transform:translateX(-68%);}
       font-size: large;
     }
   }
-@media only screen and (min-device-width: 481px) {
+@media only screen and (min-device-width: 501px) {
   h1{
       font-size: xx-large;
   }
@@ -264,7 +342,7 @@ transform:translateX(-68%);}
     margin-right:20px;
 }
 .card2{
-    background-color:rgb(0,138,255);
+    background-color:#0F1924;
     border:solid 0 0 black;
     max-width:6000px;
     width:100%;
@@ -276,6 +354,7 @@ transform:translateX(-68%);}
   position: relative;
   text-align: center;
   color: white;
+  background-color:#101418;
   overflow: hidden;
   width:70%;
   border-radius:10px;
@@ -415,7 +494,7 @@ transform:translateX(-68%);}
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin:40px;
-  background-color:rgb(0,138,255);
+  background-color:#0F1924;
   width:100%;
   max-width:250px;
   border-radius:10px;
@@ -437,9 +516,9 @@ transform:translateX(-68%);}
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin:40px;
-  background-color:#202125;
+  background-color:#0F1924;
   width:100%;
-  max-width:250px;
+  max-width:260px;
   border-radius:10px;
   overflow: hidden; /* add this to contain floated children */
   display: inline-block;
@@ -528,7 +607,7 @@ a{
 /* Container for image text */
 .caption5-container {
   text-align: center;
-  background-color: #222;
+  background-color: #0F1924;
   padding: 2px 16px;
   color: white;
 }
@@ -559,7 +638,7 @@ a{
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
-  background-color: #141414;
+  background-color:#101418;
 }
 
 .reveal.active{
@@ -573,7 +652,6 @@ a{
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -581,6 +659,9 @@ a{
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	z-index:999;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  
 }
 
 .sidenav a {
@@ -620,8 +701,6 @@ margin-left: 200px; /* Same as the width of the sidenav */
  width:0px;
  height:0px;
  color:white;
- border:solid #141414;
- background-color: #141414;
  position:fixed;
  right:0;
  top:0;
@@ -717,20 +796,16 @@ font-size: xx-large;
 font-family: MyFirstFont;
 }
 #blu{
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
+ /*gg*/
 }
 .lesh{
   margin:20px;
   margin-left:60px;
 }
 .priterm{
-  background-color: #141414;
+  background-color: #0F1924;
   border-radius: 10px;
-  border:10px 10px #141414;
+  border:10px 10px #0F1924;
 }
 /* The Modal (background) */
 .modal {
@@ -760,374 +835,388 @@ font-family: MyFirstFont;
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .warn-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal1-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal2-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal3-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal4-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal5-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal6-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal7-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal8-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal9-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal10-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal11-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal12-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal13-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal14-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal15-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal16-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal17-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal18-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal19-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal20-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal21-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal22-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal23-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal24-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal25-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal26-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal27-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal28-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal29-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal30-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal31-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal32-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal32-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal32-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal33-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal34-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal35-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal36-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal37-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal38-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal39-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal40-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal41-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal42-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal43-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal44-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal45-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal46-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal47-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal48-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 .modal49-content {
-  background-color: #141414;
+  background-color: #0F1924;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #141414;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal50-content {
+  background-color: #0F1924;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal51-content {
+  background-color: #0F1924;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
@@ -1722,6 +1811,30 @@ font-family: MyFirstFont;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal49 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal50 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal51 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -2348,8 +2461,32 @@ font-family: MyFirstFont;
   text-decoration: none;
   cursor: pointer;
 }
+.close50 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close50:hover,
+.close50:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close51 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close51:hover,
+.close51:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 #downlaod1{
-  background-color: #1CA3DE;
+  background-color: #101418;
   color:white;
   border-radius:4px;
   border:none;
@@ -2365,7 +2502,8 @@ font-family: MyFirstFont;
   border-radius: 20px;
   text-align:center;
   color:white;
-  background-color: #17181b;
-  border:solid 1px black;
+  background-color: #0F1924;
+  border:none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 

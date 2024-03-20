@@ -1219,6 +1219,13 @@ font-family: MyFirstFont;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
+.modal52-content {
+  background-color: #0F1924;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
 /* The Close Button */
 .close {
@@ -1835,6 +1842,18 @@ font-family: MyFirstFont;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal51 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal52 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -2481,6 +2500,18 @@ font-family: MyFirstFont;
 }
 .close51:hover,
 .close51:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close52 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close52:hover,
+.close52:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

@@ -1226,6 +1226,20 @@ font-family: MyFirstFont;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   width: 80%; /* Could be more or less, depending on screen size */
 }
+.modal53-content {
+  background-color: #0F1924;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal54-content {
+  background-color: #0F1924;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
 
 /* The Close Button */
 .close {
@@ -1854,6 +1868,30 @@ font-family: MyFirstFont;
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 .modal52 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal53 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal54 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -2516,6 +2554,30 @@ font-family: MyFirstFont;
   text-decoration: none;
   cursor: pointer;
 }
+.close53 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close53:hover,
+.close53:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close54 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close54:hover,
+.close54:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 #downlaod1{
   background-color: #101418;
   color:white;
@@ -2536,5 +2598,12 @@ font-family: MyFirstFont;
   background-color: #0F1924;
   border:none;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#warning{
+  color:white;
+  border: 1px solid #dbe67c;
+  border-radius:5px;
+  background-color: rgba(255, 217, 0,0.2);
+  margin:6px;
 }
 

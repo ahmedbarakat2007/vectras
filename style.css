@@ -25,6 +25,9 @@ h1{
 h3{
   font-family:ph2;
 }
+h4{
+  font-family:h1;
+}
 br{
   user-select:none;
 }
@@ -34,7 +37,7 @@ br{
 .header{
 	position:fixed;
 	left:50%;
-	height:108px;
+	height:78px;
 	transform:translateX(-50%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -51,7 +54,7 @@ padding:0;
 transition: transform 0.3s ease-in-out 0s;
 }
 #logo{
-    width:100px;
+    width:70px;
     position:fixed;
 	left:50%;
 	top:0;
@@ -182,6 +185,7 @@ padding:0;
   width:250px;
   float:none;
   margin-right: 0;
+  margin-top:23px
 }
 #background{
   display:inline;
@@ -201,7 +205,7 @@ padding:0;
     margin-left:80px;
   }
   #background{
-      display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.jpg); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
+      display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.webp); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
   }  
 #blu{
   width:270px;
@@ -239,7 +243,7 @@ padding:0;
 
 }
 #background{
-  display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.jpg); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
+  display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.webp); max-height: 700px; max-width: 40000px; border-radius:10px; height:400px; width:100%; display:inline-block;
 }
 }
 @media only screen and (min-device-width: 1400px) {
@@ -274,6 +278,9 @@ padding:0;
   p{
     font-size: small;
   }
+  #background{
+    display:inline; background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Textures/main.webp); max-height: 500px; max-width: 40000px; border-radius:10px; height:300px; width:100%; display:inline-block;
+  }  
 }
 @media only screen and (min-device-width: 481px) {
   p{
@@ -651,7 +658,7 @@ a{
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 0;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -661,13 +668,14 @@ a{
 	z-index:999;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   backdrop-filter: blur(10px);
+  overflow-y: hidden;
   
 }
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -695,14 +703,14 @@ a{
 margin-left: 200px; /* Same as the width of the sidenav */
 }
 #menu2{
- margin-right: 50px;
- margin-top: 30px;
+ margin-left: 50px;
+ margin-top: 23px;
  margin-bottom:-30px;
  width:0px;
  height:0px;
  color:white;
  position:fixed;
- right:0;
+ left:0;
  top:0;
  z-index:980;
 }

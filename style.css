@@ -2614,4 +2614,42 @@ font-family: MyFirstFont;
   background-color: rgba(255, 217, 0,0.2);
   margin:6px;
 }
-
+.bottom{
+  border : none;
+  background-color:#0F1924;
+}
+#logo1{
+  width:100px;
+  margin-top:30px;
+  margin-left:50px;
+  padding:0;
+  float : left;    
+}
+#bottoma{
+  font-family: ph2;
+  color:white;
+}
+#contact{
+  font-size:50px;
+  color:white;
+  margin-right:20px;
+  margin-left:20px;
+}
+.doc{
+  background-color:rgba(15, 25, 46, 0.5);
+  border:3px solid rgba(15, 25, 56);
+  border-radius:50px;
+  width:60%;
+  margin:8px;
+  cursor:pointer;
+}
+.doc:hover{
+  background-color:rgba(15, 25, 66, 0.5);
+  border:3px solid rgba(15, 25, 76);
+  transition: 0.5s;
+  cursor:pointer;
+  
+}
+.txt{
+  cursor:pointer;
+}
